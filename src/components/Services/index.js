@@ -19,22 +19,25 @@ function Services() {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1}/>
-          <ServicesH2>Reduce expenses</ServicesH2>
-          <ServicesP>We help reduce your fess and increase your overall revenue.</ServicesP>
+          <ServicesH2>비용 절감</ServicesH2>
+          <ServicesP>개인 또는 법인의 비용을 줄이고 전반적인 수익을 높이는 데 도움을 드립니다.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2}/>
-          <ServicesH2>Virtual Offices</ServicesH2>
-          <ServicesP>You can access our platform online anywhere in the world.</ServicesP>
+          <ServicesH2>비대면 거래</ServicesH2>
+          <ServicesP>전 세계 어디서나 온라인으로 어플리케이션에 접속, 거래를 할 수 있습니다.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}/>
-          <ServicesH2>Premium Benefits</ServicesH2>
-          <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
+          <ServicesH2>
+          프리미엄 혜택
+          </ServicesH2>
+          <ServicesP>놓치지 마세요!<br/> 
+            특별 회원카드를 만드시면 5% 캐시백을 해드립니다.</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
   )
 }
 
-export default Services
+export default Services;

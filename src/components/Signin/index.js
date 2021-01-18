@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { 
   Container, 
   FormWrap, 
@@ -9,7 +9,7 @@ import {
   FormInput, 
   FormLabel, 
   Icon, 
-  Text } from './SigninElements'
+  Text } from './SigninElements';
 
 const Signin = () => {
   return (
@@ -18,13 +18,13 @@ const Signin = () => {
         <Icon to='/'>dolla</Icon>
         <FormContent>
           <Form action='#'>
-            <FormH1>Sign in to your account</FormH1>
+            <FormH1>Sign in</FormH1>
             <FormLabel htmlFor='for'>Email</FormLabel>
             <FormInput type='email' required/>
             <FormLabel htmlFor='for'>Password</FormLabel>
             <FormInput type='password' required/>
-            <FormButton type='submit'>Continue</FormButton>
-            <Text>Forgot password</Text>
+            <FormButton type='submit'>Sign in</FormButton>
+            <Text>비밀번호 찾기</Text>
           </Form>
         </FormContent>
       </FormWrap>
@@ -32,4 +32,4 @@ const Signin = () => {
   )
 }
 
-export default Signin
+export default Signin;

@@ -25,7 +25,7 @@ const onHover = () => {
       <HeroContent>
         <HeroH1>Virtual Banking Made Easy</HeroH1>
         <HeroP>
-          Sign up for a new account today and receive $250 in credit towards your next payment.
+        지금 새로운 계좌를 만드시면 다음 결제시<br/>5000포인트를 드립니다.
         </HeroP>
         <HeroBtnWrapper>
           <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'
@@ -35,7 +35,7 @@ const onHover = () => {
           exact='true'
           offset={-80}
           >
-            Get started {hover ? <ArrowForward/> : <ArrowRight/>}
+            계좌 개설하기 {hover ? <ArrowForward/> : <ArrowRight/>}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
